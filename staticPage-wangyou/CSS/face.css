@@ -1,0 +1,235 @@
+/*顶部盒子*/
+#topFace{
+    width: 100%;
+    height: 100%;
+    background: red;
+    background-size: cover;
+    overflow: hidden;
+}
+/*轮播盒子*/
+#box{
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+/*左右*/
+.btn{
+    width: 50px;
+    height: 100px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 120px;
+    display: none;
+}
+/*左右按键对齐*/
+#left{
+    left: 0px;
+}
+#right{
+    right: 0px;
+}
+/*hover效应*/
+a:hover{
+    background-color: green;
+}
+/*轮播数码*/
+.myUl {
+    list-style: none;
+    position: absolute;
+    bottom: 20px;
+    left: 43%;
+}
+.myLi{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+}
+/*顶部搜索栏*/
+#search{
+    width: 100%;
+    height: 7%;
+    text-align: center;
+    opacity: 0.5;
+    background: #b30e08;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+/*顶部空格布局*/
+#topSpace{
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-right: 20%;
+    color: yellow;
+}
+/*礼品信息*/
+#information{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background: #eeeeee;
+    border-top: 10px solid #eeeeee;
+    border-bottom: 5px solid #f5eaee;
+}
+.informationFloatLeft{
+    float: left;
+    font-size: 13px;
+    margin-left: 20%;
+    text-align: left;
+}
+.informationFloatRight{
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-left: 3%;
+    margin-right: 15%;
+    text-align: left;
+}
+/*字体对齐*/
+.justRight{
+    float: right;
+}
+
+.newInformation{
+    margin-right: 20%;
+    text-align: left;
+}
+/*月饼图片*/
+.foodPhoto{
+    width: 30%;
+    float: left;
+    border:5px solid #f5eaee;
+}
+/*月饼图片描述*/
+.foodPhotoCharacter{
+    text-align: left;
+    width: 60%;
+    float: right;
+    margin-text-outline: 3%;
+    margin-bottom: 7%;
+}
+/*空格*/
+.main{
+    margin-right: 3%;
+}
+/*新闻栏*/
+#news{
+    font-size: 13px;
+    width: 100%;
+    height: 60%;
+    float: left;
+}
+/*信息左浮动*/
+.left{
+    font-size: 13px;
+    height: 15%;
+    text-align: left;
+    float: left;
+}
+/*日期右浮动*/
+.right{
+    font-size: 13px;
+    height: 15%;
+    text-align: right;
+    float: right;
+}
+/*礼品中心*/
+#center{
+    width:65%;
+    height: 300px;
+    text-align: left;
+    background: white;
+    padding-left: 17.5%;
+    padding-right:17.5%;
+    font-size: 14px;
+}
+
+/* 一个图片及介绍 */
+.centerPage{
+    margin-right: 60%;
+}
+
+/*图片介绍*/
+.introducePhoto{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+/*字体变red*/
+.redSpan{
+    color: red;
+}
+/*字体加粗并变red*/
+.redAndBold{
+    color: red;
+    font-weight: bold;
+}
+/*知识及荣誉*/
+#knowAndHonor{
+    width: 65%;
+    height: 320px;
+    margin-left:17.5%;
+    margin-right: 17.5%;
+    background: white;
+}
+#knowledge{
+    width: 50%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.content{
+    float: left;
+    margin-right: 10%;
+}
+#honor{
+    width: 50%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.honorPhoto{
+    background: url("../image/honor.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 30%;
+    height:35%;
+    margin-top: 2%;
+    margin-left: 3%;
+    float: left;
+}
+.honorCharacter{
+    width:100%;
+    height: 20%;
+    opacity: 0.5;
+    float: bottom;
+    background-color: black;
+    margin-top: 60%;
+    color: #eeeeee;
+    font-size: 13px;
+}
+#last{
+    width:100%;
+    height: 200px;
+    text-align: center;
+    background: red;
+}
+#netLine{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: #880002;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
