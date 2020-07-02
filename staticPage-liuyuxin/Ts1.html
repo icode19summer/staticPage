@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml" xmlns:text-decoration="http://www.w3.org/1999/xhtml"
+      xmlns:justify-content="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>ts1</title>
+    <style>
+        /*设置字体*/
+        body {font-size:90%;}
+        h1 {font-size:2.5em;}
+        h2 {font-size:1.875em;}
+        p {font-size:0.875em;}
+        * {
+            margin: 0;
+            padding:0;
+        }
+        a.headurl{
+            text-decoration:none;
+            color: #BF2E27;
+        }
+        img{display:block;}
+
+        .flex-headbar {
+            display: -webkit-flex;
+            display: flex;
+            width: 100%;
+            height: 50px;
+            background-image: linear-gradient(#fcfcfe, #ebe9ea 50%,#e3dfde 100%);
+            justify-content: center;
+            margin-bottom: 10px;
+            padding-top: 2%;
+            box-shadow: 0 10px 0 #eeeeee ;
+        }
+
+        .flex-wen{
+            display: -webkit-flex;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-flow:row nowrap;
+            background-color:#eeeeee;
+        }
+        .flex-null{
+            display: -webkit-flex;
+            display: flex;
+            font-family: "Microsoft YaHei UI";
+        }
+        .flex-navbar {
+            font-family: "Microsoft YaHei UI";
+            color: #BF2E27;
+            width: 10%;
+            height: 3%;
+            margin-top: 0.2%;
+        }
+
+        .post
+        {
+            position: relative ;
+            margin-bottom: 1em ;
+        }
+        .pot/*顶部对齐*/
+        {
+            position: absolute;top:0px;
+        }
+
+        .bot /*底部*/
+        {
+            position: absolute;
+            bottom:0px;
+            font-size: 1.35em;
+            width: 100%;
+            background-color: #666666;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+
+<!--头图-->
+    <div class="post">
+        <img style="width: 100%" src="img/01.jpg" alt="头图载入中">  </img>
+        <div class="pot" style="right: 15%">
+            <input type="text" value="请输入检索关键词"> <input type="submit" value="搜索">
+        </div>
+    <div>
+
+
+<!--导航栏-->
+    <div class="flex-headbar">
+        <div class="flex-navbar">
+            <a class="headurl" href="https://space.bilibili.com/">&emsp;🏠主页&emsp;</a>
+        </div>
+        <div class="flex-navbar">
+            关于我们
+        </div>
+        <div class="flex-navbar">
+            咨询中心
+        </div>
+        <div class="flex-navbar">
+            礼品中心
+        </div>
+        <div class="flex-navbar">
+            礼品知识
+        </div>
+        <div class="flex-navbar">
+            加盟须知
+        </div>
+        <div class="flex-navbar">
+            资质荣誉
+        </div>
+        <div class="flex-navbar">
+            在线留言
+        </div>
+        <div class="flex-navbar">
+            联系我们
+        </div>
+    </div>
+
+<!--1-->
+    <div class="flex-wen" style="height:40%;width: 100%">
+        <!--    左块-->
+        <div style="margin-right: 2%;width: 30%">
+            <img src="img/02.jpg" width="100%" alt="loading">  </img>
+            <img src="img/02-1.png" width="100%" alt="loading"> </img>
+            <p>     地址:   这里是你的公司
+                <br>邮编:   000000
+                <br>电话:   +86 0000 96877
+                <br>传真:   +86 0000 96877
+            </p>
+        </div>
+        <!--右块-->
+        <div style="margin-left: 2%;width: 50%">
+            <div class="post" width="50%">
+                <img src="img/03-1.png" width="100%" />
+                <span style="position: absolute;top:0;right:15%">
+                    查看更多最新资讯,<span style="background-color: #be9193;color: #f0e7e4">请点击这里</span>
+                </span>
+            </div>
+            <!--小图表-->
+            <div class="post" width="100%">
+                <img src="img/03.jpg" width="35%" />
+                <span class="pot" style="left: 40%;  width: 45%;color:#db7f7c" >
+                    <h3>品牌推广服务运营商,致力于在物联网时代</h3>
+                </span>
+                <span class="pot" style=" top:15%; left: 40% ;width: 40%;">
+                    &emsp;xx网络,一流的百度产品推广服务运营商,致力于在互联网时代帮助中国企业进行营销方式的革命,并使他们在这场营销变革中抢占先机。
+                </span>
+                <!--            调整格式-->
+                <br><br><br>
+                <hr>
+            </div>
+
+            <div class="flex-null" style="width: 100%">
+                <div wight="70%">
+                    <span style="line-height: 1.8em">
+                             >>  如朝日初升。在中国国际实力日益壮大，经济
+                        <br> >>  百度唯一一家拥有省级代理资质的代理商
+                        <br> >>  背负着中国信息产业国际化的历史重任
+                        <br> >>  "坐等客户,坐拥商机"
+                        <br> >>  "2012,聚焦营销新动力百度"
+                    </span>
+                </div>
+                <div style="margin-left: 10%" wight ="20%">
+                    <ul class="none" style="line-height: 1.8">
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                    </ul></div>
+            </div>
+        </div>
+    </div>
+
+
+<!--2-->
+<!--标题图-->
+<!--felx  4项-->
+<!--间距2*5 项20*4 箭头 5 -->
+
+    <div style="background-color:#ffffff;width: 100%">
+        <div class="post">
+            <img src="img/04-1.png" width="100%" />
+            <span class="pot" style="top:25%;right:15%">
+                查看更多最新资讯,<span style="background-color: #be9193;color: #f0e7e4">请点击这里</span>
+            </span>
+        </div>
+
+        <div class="flex-null">
+            <div style="margin-left: 2%;width: 5%">
+                <img src="img/左箭头.png" />
+            </div>
+
+            <div style="margin-left: 2%;width: 20%">
+                <img src="img/04.jpg" />
+                <span style="line-height: 3.2em "> 品牌推广运营商,致... <span style="color: #dd594b">[预定]</span><br>
+                    <span style="color: #4f6e6c">原价:</span> 100元　&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color: #4f6e6c">现价:</span>
+                    <span style="color: #FF0000">50元</span>
+                </span>
+            </div>
+
+            <div style="margin-left: 2%;width: 20%">
+                <img src="img/05.jpg" />
+                <span style="line-height: 3.2em "> 百度xxxxx <span style="color: #dd594b">[预定]</span><br>
+                    <span style="color: #4f6e6c">原价:</span> 暂无　&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color: #4f6e6c">现价:</span>
+                    <span style="color: #FF0000">111111</span>
+                </span>
+            </div>
+
+            <div style="margin-left: 2%;width: 20%">
+                <img src="img/06.jpg" />
+                <span style="line-height: 3.2em "> 效果预览 <span style="color: #dd594b">[预定]</span><br>
+                    <span style="color: #4f6e6c">原价:</span> 暂无　&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color: #4f6e6c">现价:</span>
+                    <span style="color: #FF0000">暂无</span>
+                </span>
+            </div>
+
+            <div style="margin-left: 2%;width: 20%">
+                <img src="img/07.jpg" />
+                <span style="line-height: 3.2em "> kkkkkk <span style="color: #dd594b">[预定]</span><br>
+                    <span style="color: #4f6e6c">原价:</span> 暂无　&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color: #4f6e6c">现价:</span>
+                    <span style="color: #FF0000">1111</span>
+                </span>
+            </div>
+
+            <div style="width: 5%">
+                <img src="img/右箭头.png" />
+            </div>
+
+        </div>
+    </div>
+
+<!--3-->
+<!--礼品  |  荣誉-->
+
+<!--    <div class="post" style="background-color:#ffffff;width: 100%">-->
+<!--        <img src="img/礼品1.png" width="50%">-->
+<!--        <span class="pot" style="top: 8%;left:25%">-->
+<!--            查看更多礼品资讯,<span style="background-color: #be9193;color: #f0e7e4">请点击这里</span>-->
+<!--        </span>-->
+
+    <div class="post" style="background-color:#ffffff;width: 100%;height: 100% ">
+
+        <div class="flex-null" style="justify-content: center;">
+    <!--     左-->
+<!--            封-->
+            <div style="width: 48%; margin-right: 2%">
+                <img src="img/礼品1.png" width="60%">
+                <span class="pot" style="top: 15px;left:25%">
+                查看更多礼品资讯,<span style="background-color: #be9193;color: #f0e7e4">请点击这里</span>
+                </span>
+
+                <div class="flex-null" style="width: 100%;justify-content: center;">
+                <div wight="70%">
+                        <span style="font-size: 16px;line-height: 1.8em">
+                            <ul class="none" style="line-height: 1.8">
+                                <li>百度营销</li>
+                                        <hr>
+                                <li>并使它们</li>
+                                        <hr>
+                                <li>的百度产品</li>
+                                        <hr>
+                                <li>并使</li>
+                                        <hr>
+                                <li>一流的</li>
+                                        <hr>
+                                <li>致力于</li>
+                                        <hr>
+                            </ul>
+                        </span>
+                </div>
+                <div style="margin-left: 10%" wight ="20%">
+                    <ul class="none" style="font-size:16px;line-height: 2">
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                        <li>2014-02-07</li>
+                    </ul></div>
+                </div>
+            </div>
+<!--        右-->
+<!--        封-->
+        <div style="width: 48%; margin-lift: 2%">
+            <img src="img/假资质.png" width="60%">
+            <span class="pot" style="top: 15px;right:25%">
+                查看更多资质荣誉,<span style="background-color: #be9193;color: #f0e7e4">请点击这里</span>
+                </span>
+            <table>
+                <tr>
+                    <td class="post">
+                        <img src="img/08.jpg" style="margin: 5px">
+                        <span class="bot" >3 图 2333试测</span>
+                    </td>
+                    <td  class="post">
+                        <img src="img/08.jpg" style="margin: 5px">
+                        <span class="bot" >3 图 2333试测</span>
+                    </td>s
+                    <td  class="post">
+                        <img src="img/08.jpg" style="margin: 5px">
+                        <span class="bot" >3 图 2333试测</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td  class="post">
+                        <img src="img/08.jpg" style="margin: 5px">
+                        <span class="bot" >3 图 2333试测</span>
+                    </td>
+                    <td  class="post">
+                        <img src="img/08.jpg" style="margin: 5px">
+                        <span class="bot" >3 图 2333试测</span>
+                    </td>
+                    <td  class="post">
+                        <img src="img/08.jpg" style="margin: 5px">
+                        <span class="bot" >3 图 2333试测</span>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+
+    <div>input[type=text] {
+        background-color: #3CBC8D;
+        color: white;
+        }
+
+
+</body>
+</html>
