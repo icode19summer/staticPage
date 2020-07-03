@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: brown;
+    width: 750px;
+    padding: 8px 299px;
+}
+
+.header form {
+    margin: 15px -60px;
+    float: right;
+}
+
+.header img {
+    margin: 0 -60px;
+}
+
+.section1 {
+
+}
+
+.section2 {
+    text-align: center;
+    background-color: blanchedalmond;
+    color: brown;
+    width: 1000px;
+    padding: 0 176px;
+    margin: -4px;
+}
+
+.section2 a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.section301 {
+    float: left;
+    margin: 20px;
+    width: 200px;
+    padding: 20px 200px;
+}
+
+.section301 a {
+    text-decoration: none;
+}
+
+.section302 {
+    float: left;
+    margin: 20px -80px;
+    width: 650px;
+    padding: 20px 49px;
+}
+
+.section302 a {
+    text-decoration: none;
+}
+
+.section303 {
+    float: left;
+    margin: -40px -180px;
+    padding: 20px 150px;
+}
+
+.section303 a {
+    text-decoration: none;
+}
+
+.section304 {
+    float: left;
+    margin: -10px 35px;
+    width: 300px;
+    padding: -40px;
+}
+
+.section304 a {
+    text-decoration: none;
+}
+
+.section305 {
+    float: left;
+    margin: -250px 400px;
+    width: 500px;
+    padding: 100px 209px;
+}
+
+.section305 a {
+    text-decoration: none;
+}
+
+.section401 {
+    float: left;
+    width: 910px;
+    padding: 10px 219px;
+}
+
+.section401 a {
+    text-decoration: none;
+}
+
+.section400 {
+    float: left;
+    width: 50px;
+    padding: 10px 150px;
+    padding-right: 0;
+}
+
+.section400 a {
+    text-decoration: none;
+}
+
+.section402 {
+    float: left;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.section403 {
+    float: left;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.section404 {
+    float: left;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.section405 {
+    float: left;
+    width: 200px;
+    padding: 10px;
+}
+
+.section410 {
+    float: left;
+    width: 50px;
+    padding: 10px 150px;
+    padding-left: 0;
+}
+
+.section410 a {
+    text-decoration: none;
+}
+
+.section406 {
+    float: left;
+    width: 200px;
+    padding: 10px 220px;
+    padding-right: 15px;
+}
+
+.section406 a {
+    text-decoration: none;
+}
+
+.section407 {
+    float: left;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.section407 a {
+    text-decoration: none;
+}
+
+.section408 {
+    float: left;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.section408 a {
+    text-decoration: none;
+}
+
+.section409 {
+    float: left;
+    width: 200px;
+    padding: 10px 219px;
+    padding-left: 0;
+}
+
+.section409 a {
+    text-decoration: none;
+}
+
+.shadow {
+    float: left;
+    width: 500px;
+    margin: 10px 220px;
+    background-color: gray;
+    padding: 8px 200px;
+}
+
+.section501 {
+    float: left;
+    width: 450px;
+    padding: 0px 220px;
+    padding-right: 0;
+}
+
+.section501 a {
+    text-decoration: none;
+}
+
+.section502 {
+    float: left;
+    width: 400px;
+    padding: 8px 260px;
+    padding-left: 10px;
+}
+
+.section502 a {
+    text-decoration: none;
+}
+
+.section503 {
+    float: left;
+    width: 130px;
+    padding: 8px 10px;
+    padding-right: 20px;
+}
+
+.section504 {
+    float: left;
+    width: 130px;
+    padding: 8px 10px;
+    padding-right: 20px;
+}
+
+.section505 {
+    float: left;
+    width: 130px;
+    padding: 8px 10px;
+    padding-right: 100px;
+}
+
+.section506 {
+    float: left;
+    width: 130px;
+    padding: 8px 10px;
+    padding-right: 20px;
+}
+
+.section507 {
+    float: left;
+    width: 130px;
+    padding: 8px 10px;
+    padding-right: 20px;
+}
+
+.section508 {
+    float: left;
+    width: 130px;
+    padding: 8px 10px;
+    padding-right: 20px;
+}
+
+.shadow02 {
+    float: left;
+    width: 500px;
+    margin: 10px 220px;
+    background-color: gray;
+    padding: 10px 200px;
+}
+
+.section6 {
+    clear: both;
+    background-color: brown;
+    width: 750px;
+    text-align: center;
+    padding: 15px 299px;
+}
+
+.section6 a {
+    color: brown;
+}
+
+.footer {
+    background-color: darkred;
+    clear: both;
+    text-align: center;
+    width: 750px;
+    padding: 50px 299px;
+}
+.footer a {
+    color: white;
+    font-size: 10px;
+    float: left;
+}
+.footer p1{
+    color: white;
+    font-size: 10px;
+    float: left;
+}
+.footer p2{
+    color: white;
+    font-size: 10px;
+    float: left;
+}
