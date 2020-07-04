@@ -1,0 +1,250 @@
+
+.myBody{
+    margin: auto;
+    width: 1536px;
+}
+.head{
+    width: 1536px;
+    height: 520px;
+    background-image: url("imgs/20140124142507-1163727708.jpg");
+    border: #A2060D 2px solid;
+}
+.head-nav{
+    width: 1536px;
+    height: 60px;
+    border: #D62A20 1.5px solid;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    background-color: #A80D08;
+}
+.head-nav img{
+    float:left;
+    position:absolute;
+    margin-left:240px;
+    margin-top:15px;
+}
+.head-nav form{
+    float:left;
+    position:absolute;
+    margin-left:850px;
+    margin-top:15px;
+}
+.button input{
+    float:left;
+    position:absolute;
+    margin-left:1110px;
+    margin-top:15px;
+    background-color: #ED4F32;
+}
+.bodytop{
+    height: 550px;
+    width: 1536px;
+    background-color: #EEEEEE;
+
+}
+.body-head{
+    padding-top: 20px;
+    height: 50px;
+    width: 1536px;
+    background-image: linear-gradient(#FDFDFF, #E1DFE0);
+}
+.body-head a{
+    text-decoration:none ;
+    color:red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.middle{
+    background-color: #BBBBBB;
+    height:3px;
+    width:1536px;
+}
+
+.body-content{
+    float:left;
+    margin:20px;
+    padding-top: 10px;
+    padding-left: 320px;
+}
+
+.left{
+    float:left;
+    padding-top: 25px;
+}
+.right{
+    float:left;
+    width:540px;
+    height:400px;
+    margin:0 0 15px 20px;
+    /*border:1px solid #EEEEEE;*/
+}
+.righttop{
+    float:left;
+    width:540px;
+    margin:0 0 0px 0px;
+    /*border:1px solid  #EEEEEE;*/
+}
+.righttop img{
+    float:left;
+    margin:5px;
+}
+.righttop a{
+    text-decoration:none ;
+    color:white;
+    background-color: #BA828B;
+}
+.rightbelow{
+    font-size: 15px;
+}
+.rightbelow a{
+    text-decoration:none ;
+    color:white;
+    color: black;
+}
+.bodybelow{
+    height: 700px;
+    width: 950px;
+    padding-left: 320px;
+    padding-right: 320px;
+    border: white 1px solid;
+    background-color: white;
+    clear:both;
+
+}
+.first a{
+    text-decoration:none ;
+    color:white;
+    background-color: #BA828B;
+
+}
+.first p{
+    float:right;
+}
+
+.second{
+    clear: both;
+    padding-top: 20px;
+}
+.second img{
+    float:left;
+    border:1px solid black;
+    margin:0px 0px 15px 15px;
+}
+.second1{
+    font-size: 12px;
+}
+.second1 a{
+    text-decoration:none ;
+    color:white;
+    color: #BA828B;
+}
+.list5{
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-left: -30px;
+}
+.list5 li{
+    float:left;
+    margin-left: 60px;
+
+}
+.list6{
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-left: -60px;
+}
+.list6 li{
+    float:left;
+    margin-left: 95px;
+}
+.thirdleft{
+    float:left;
+    border: 1px solid white;
+    width: 350px;
+    height: 350px;
+    padding-right: 1px;
+    font-size: 12px;
+}
+.thirdleft a{
+    text-decoration:none ;
+    color:white;
+    background-color: #BA828B;
+}
+.thirdright{
+    float:right;
+    border: 1px solid white;
+    width: 500px;
+    height: 350px;
+
+}
+.thirdright a{
+    text-decoration:none ;
+    color:white;
+    background-color: #BA828B;
+}
+.thirdright img{
+    margin:0px 0px 20px 10px;
+}
+.foot{
+    height: 140px;
+    width: 1536px;
+}
+.foot-topred{
+    height: 40px;
+    background-color: #830705;
+}
+.foot-belowred{
+    height:100px;
+    width:1536px;
+    background-color: #A60704;
+}
+.foot-rconer{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 600px;
+    height: 30px;
+    margin-left: 400px;
+
+}
+.list1{
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-left: 370px;
+}
+.list1 li{
+    float:left;
+    margin-left: 30px;
+
+}
+.list1 a{
+    text-decoration:none ;
+    color:#FFD8A7;
+    font-size: 10px;
+}
+.list2{
+    clear:both;
+     padding-left: 400px;
+ }
+.list2 pre{
+    color:#FFD8A7;
+    font-size: 10px;
+}
+.list3{
+     padding-left: 400px;
+ }
+.list3 pre{
+    color:#FFD8A7;
+    font-size: 10px;
+}
+.list4 li{
+    float:left;
+    margin-left: 30px;
+}
+.list4{
+    list-style-type: none;
+    margin-left: 300px;
+}
