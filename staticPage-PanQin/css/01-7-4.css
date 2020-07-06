@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*版心*/
+.w {
+    width: 975px;
+    margin: auto;
+}
+
+/*头部盒子*/
+.header {
+    float: none;
+    height: 42px;
+    background-color:#b30e08;
+    margin: 0 auto;
+}
+
+/*logo部分*/
+.logo {
+    float: left;
+    width: 290px;
+    height: 40px;
+    background-color:#b30e08;
+    margin-left: 150px;
+}
+
+/*搜索模块*/
+.search {
+    float: right;
+    height:42px;
+    background-color: #b30e08;
+    margin-right: 370px;
+}
+.search input {
+    margin-right: 1px;
+    border-radius: 8px;
+    float: left;
+    height: 30px;
+    border: 2px solid #b30e08;
+    margin-top: 5px;
+    color: #e19d9a;
+    font-size: 14px;
+}
+.search button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #e0442d;
+    border: 0;
+    background: url(../images/button.png);
+}
+.search select {
+    margin-right: 4px;
+    border-radius: 8px;
+    float: left;
+    width: 120px;
+    height: 34px;
+    margin-top: 5px;
+    border: 2px solid #b30e08;
+    border-right: 0;
+    color: #e19d9a;
+    font-size: 14px;
+}
+/*无下划线*/
+a {
+    text-decoration: none;
+}
+
+/*导航栏的横向排列*/
+.nav {
+    background-color: #e7e5e6;
+    height: 65px;
+    margin-top:-4px;
+}
+.nav img {
+    margin-left: 3px;
+    width: 30px;
+    margin-top: 5px;
+}
+.nav a {
+    margin-right: 50px;
+    color: #d97f65;
+}
+
+/*联系我们和最新资讯*/
+.background-connectnews .connect-news .connect ul li p{
+    margin-top: 10px;
+}
+.connect-news .newshigh {
+    height: 150px;
+}
+.connect-news .newslow {
+    height: 250px;
+    font-size: 13px;
+    float: left;
+    width: 100%;
+}
+.background-connectnews {
+    padding-top: 40px;
+    margin: 0px;
+    height: 480px;
+    background: #eeeeee;
+}
+.connect-news {
+    margin-top: -10px;
+    height: 470px;
+}
+.connect-news .connect {
+    float: left;
+    width: 40%;
+    font-size: 12px;
+}
+.connect-news .news {
+    float: right;
+    width: 60%;
+}
+.connect-news ul li {
+    display: block;
+}
+.news {
+    float: right;
+    height: 250px;
+}
+.connect-news .newstitle img {
+    width: 585px;
+}
+.connect-news .news .newspicture {
+    float: left;
+    width:100px;
+    height: 125px;
+}
+.connect-news .highleft {
+    float: left;
+}
+.connect-news .news .highright {
+    float: right;
+    width: 250px;
+    margin-left: 90px;
+    height: 125px;
+    color: #c84d50;
+
+}
+.connect-news .news .highright p{
+    font-size: 13px;
+    color: #636363;
+    margin-top: 10px;
+    width: 400px;
+}
+/*礼品中心*/
+.prisent {
+    width: 975px;
+    height: 250px;
+    margin-top: 25px;
+}
+.prisent span {
+    font-size: 13px;
+}
+.trangle-knowledge {
+    margin-bottom: 25px;
+    background: #f8f8f8;
+    height: 25px;
+}
+
+/*礼品知识和资质荣誉*/
+.knowledge-honor .knowledge{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 50%;
+}
+.knowledge-honor .knowledge .knowledgetitle img {
+    width: 470px;
+}
+.knowledge-honor {
+    width: 975px;
+    height: 270px;
+    margin-bottom: 65px;
+    margin-top: 15px;
+}
+.knowledge-honor .knowledge .lowleft {
+    width: 450px;
+    color: #9c9c9c;
+}
+.knowledge-honor .knowledge .lowleft ul li p {
+    height: 37px;
+}
+.knowledge-honor .knowledge .lowleft a{
+    float:left;
+    height: 15px;
+    width: 60%;
+}
+.knowledge-honor .knowledge .lowleft span {
+    float: right;
+    width: 20%;
+    height:15px;
+}
+.knowledge-honor .honor{
+    position: relative;
+    float: right;
+    width: 45%;
+}
+.picture{
+    position: relative;
+    height: 110px;
+    width: 140px;
+}
+.ms{
+    position: absolute;
+    bottom: 0.1px;
+    left: 0;
+    height: 15%;
+    width: 140px;
+    background: #A9A9A9;
+    opacity: 0.6;
+   text-align: center;
+}
+.honorleft {
+    float: left;
+}
+.honorcenter {
+    float: left;
+}
+.honorright {
+    float: left;
+}
+.honorpicture {
+    width:450px;
+}
+.honortitle img {
+    width: 450px;
+}
+
+/*底部矩形*/
+.trangle-footer {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    background-color: #f8f8f8;
+    height: 25px;
+}
+
+/*底部*/
+.footer-high {
+    margin-top: 20px;
+    float: left;
+    height: 55px;
+    width: 100%;
+    background-color: #880002;
+}
+.footer-high-center {
+    height: 35px;
+    margin: 10px 220px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    color: #671e25;
+}
+.footer-low {
+   float: left;
+    height: 140px;
+    width: 100%;
+    background-color: #b5100a;
+}
+.background-footer-low{
+    width: 100%;
+    background-color: #b5100a;
+    color: #ffe2be;
+}
+.background-footer-low .low1 {
+    margin: auto;
+    width: 60%;
+}
+
